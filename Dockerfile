@@ -1,4 +1,4 @@
-FROM vaijab/nodejs:0.12.5
+FROM vaijab/nodejs:latest
 
 WORKDIR /brp_app
 
