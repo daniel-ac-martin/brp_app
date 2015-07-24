@@ -198,14 +198,14 @@
     },
     "first-name-error": {
       "label": "What is your correct first name?",
-      "title": "This is the second line of name on your BRP card"
+      "title": "This is the second line under 'name' on your BRP card"
     },
     "last-name-error-checkbox": {
       "label": "Last name"
     },
     "last-name-error": {
       "label": "What is your correct last name?",
-      "title": "This is the first line of name on your BRP card"
+      "title": "This is the first line under 'name' on your BRP card"
     },
     "date-of-birth-error-checkbox": {
       "label": "Date of birth"
