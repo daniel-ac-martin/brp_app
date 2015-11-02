@@ -1,9 +1,9 @@
 'use strict';
 
 var util = require('util');
-var DateController = require('../../../lib/date-controller');
-var BaseController = require('../../../lib/base-controller');
-var ErrorClass = require('../../../lib/base-error');
+var DateController = require('hod-foundation').controllers.DateController;
+var BaseController = require('hod-foundation').controllers.BaseController;
+var ErrorClass = require('hod-foundation').errors.BaseError;
 var _ = require('underscore');
 
 var AboutErrorController = function AboutErrorController() {

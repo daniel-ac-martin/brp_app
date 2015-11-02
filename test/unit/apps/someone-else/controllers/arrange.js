@@ -1,7 +1,7 @@
 'use strict';
 
 var ArrangeController = require('../../../../../apps/someone-else/controllers/arrange');
-var DateController = require('../../../../../lib/date-controller');
+var DateController = require('hod-foundation').controllers.DateController;
 
 describe('apps/someone-else/controllers/arrange', function () {
 

@@ -3,7 +3,7 @@
 var util = require('util');
 var _ = require('underscore');
 
-var BaseController = require('../../../lib/base-controller');
+var BaseController = require('hod-foundation').controllers.BaseController;
 var Model = require('../models/email');
 
 var ConfirmController = function ConfirmController() {

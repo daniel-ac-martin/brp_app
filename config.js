@@ -4,9 +4,10 @@
 /*eslint no-inline-comments: 0*/
 /*eslint camelcase: 0*/
 module.exports = {
+  // Foundation
   env: process.env.NODE_ENV,
   port: process.env.PORT || 8080,
-  listen_host: process.env.LISTEN_HOST || '0.0.0.0',
+  host: process.env.LISTEN_HOST || '0.0.0.0',
   session: {
     secret: process.env.SESSION_SECRET || 'howdoesyourgardengrow',
     ttl: process.env.SESSION_TTL || 1200 /* 20 mins */
@@ -15,6 +16,8 @@ module.exports = {
     port: process.env.REDIS_PORT || 6379,
     host: process.env.REDIS_HOST || '127.0.0.1'
   },
+  common: './apps/common',
+  // Custom
   email: {
     caseworker: {
       error: process.env.CASEWORKER_ERROR_EMAIL || 'caseworker_email_address',

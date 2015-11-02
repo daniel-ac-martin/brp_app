@@ -8,3 +8,6 @@ require('moment-business');
 
 process.setMaxListeners(0);
 process.stdout.setMaxListeners(0);
+
+require('hod-foundation').init(require('../config'));
+

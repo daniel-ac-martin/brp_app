@@ -1,7 +1,7 @@
 'use strict';
 
-var Controller = require('../../../../../lib/base-controller');
-var DateController = require('../../../../../lib/date-controller');
+var Controller = require('hod-foundation').controllers.BaseController;
+var DateController = require('hod-foundation').controllers.DateController;
 var LetterReceivedController = require('../../../../../apps/not-arrived/controllers/letter-received');
 var moment = require('moment');
 

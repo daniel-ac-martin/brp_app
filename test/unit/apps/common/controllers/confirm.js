@@ -12,7 +12,7 @@ var BaseController = sinon.stub();
 BaseController.prototype.saveValues = sinon.stub().callsArg(2);
 
 var ConfirmController = proxyquire('../../../../../apps/common/controllers/confirm', {
-  '../../../lib/base-controller': BaseController,
+  'hod-foundation': {controllers: {BaseController: BaseController}},
   '../models/email': Model,
   '../routes/fields': {foo: {}, bar: {}}
 });

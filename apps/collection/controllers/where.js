@@ -1,7 +1,7 @@
 'use strict';
 
 var util = require('util');
-var DateController = require('../../../lib/date-controller');
+var DateController = require('hod-foundation').controllers.DateController;
 
 var WhereController = function WhereController() {
   this.dateKey = 'collection-date';

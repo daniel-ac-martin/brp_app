@@ -1,7 +1,7 @@
 'use strict';
 
 var util = require('util');
-var BaseController = require('../../../lib/base-controller');
+var BaseController = require('hod-foundation').controllers.BaseController;
 
 var ConfirmationController = function ConfirmationController() {
   BaseController.apply(this, arguments);

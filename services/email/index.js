@@ -1,6 +1,6 @@
 'use strict';
 
-var logger = require('../../lib/logger');
+var logger = require('hod-foundation').logger;
 var nodemailer = require('nodemailer');
 var config = require('../../config');
 var i18n = require('i18n-future')();

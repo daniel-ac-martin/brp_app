@@ -11,7 +11,7 @@ describe('apps/common/models/email', function () {
     var Model = sinon.stub();
     var EmailModel = proxyquire('../../../../../apps/common/models/email', {
       '../../../services/email': emailService,
-      'hmpo-model': Model
+      'hod-foundation': {hof: {Model: Model}}
     });
 
     it('calls hmpo-model Model with the arguments', function () {

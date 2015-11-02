@@ -1,6 +1,6 @@
 'use strict';
 
-var BaseController = require('../../../../../lib/base-controller');
+var BaseController = require('hod-foundation').controllers.BaseController;
 var OnTheWayController = require('../../../../../apps/not-arrived/controllers/on-the-way');
 
 describe('controllers/on-the-way', function () {
